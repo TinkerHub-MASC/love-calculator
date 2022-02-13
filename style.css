@@ -99,8 +99,57 @@ button {
   color: #ef233c;
 }
 
+.backdrop {
+  position: fixed;
+  background: rgba(33, 37, 41, 0.5);
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.messages {
+  margin: auto;
+}
+
+.header img {
+  cursor: pointer;
+}
+
+.results {
+  text-align: center;
+  padding: 0px 30px;
+  background: #ffff;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.percentage {
+  padding: 20px 0;
+}
+.comment {
+  padding-bottom: 20px;
+  font-weight: 400;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.closebackdrop {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: #212529;
+}
+
 @media (max-width: 450px) {
   .form {
+    margin: 0 10px;
+  }
+
+  .messages {
     margin: 0 10px;
   }
 }
