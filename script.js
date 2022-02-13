@@ -92,7 +92,7 @@ button.addEventListener("click", function (event) {
       comment.innerHTML = `Your love needs a little more love.`;
     } else if (lovePercent >= 50) {
       console.log();
-      comment.innerHTML = `Your love is frozen. Let it go. Let it go..`;
+      comment.innerHTML = `ഞാൻ ഇപ്പോഴും പറയുന്നു സജിയെട്ടാ... ഇവൾ safe അല്ല...`;
     }
   } else {
     per.innerHTML = "udayipp venda 😋";
