@@ -46,15 +46,15 @@ button.addEventListener("click", function (event) {
     let NameArray = name.split("");
     for (i = 0; i < NameArray.length; i++) {
       if (NameArray[i].includes("A")) {
-        Score += 3;
+        Score += 1;
       } else if (NameArray[i].includes("E")) {
         Score += 5;
       } else if (NameArray[i].includes("I")) {
-        Score += 10;
+        Score += 9;
       } else if (NameArray[i].includes("O")) {
-        Score += 8;
+        Score += 6;
       } else if (NameArray[i].includes("U")) {
-        Score += 7;
+        Score += 3;
       }
     }
     return Score;
@@ -92,10 +92,15 @@ button.addEventListener("click", function (event) {
       comment.innerHTML = `Your love needs a little more love.`;
     } else if (lovePercent >= 50) {
       console.log();
-      comment.innerHTML = `ഞാൻ ഇപ്പോഴും പറയുന്നു സജിയെട്ടാ... ഇവൾ/അവന് safe അല്ല...`;
+      comment.innerHTML = `Your love is frozen. Let it go. Let it go..`;
     }
   } else {
     per.innerHTML = "udayipp venda 😋";
     comment.innerHTML = `Please, enter valid names!!!`;
   }
 });
+
+console.log(
+  "%cDeveloped by Mohamed Shibin, Mohamed Nizam, Nandan NNP",
+  "color:yellow; font-size: 1.2rem; font-weight: 600"
+);
